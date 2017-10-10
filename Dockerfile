@@ -12,7 +12,7 @@ RUN \
     unzip hivemq-*.zip -d /opt/ &&\
     mv /opt/hivemq-* /opt/hivemq
 
-#Install wget and unzip, then download and install HiveMQ.
+#Download and install HiveMQ message log.
 RUN \
     wget --content-disposition http://www.hivemq.com/wp-content/uploads/mqtt-message-log-3.0.0.zip &&\
     unzip mqtt-message-log*.zip -d /tmp &&\
