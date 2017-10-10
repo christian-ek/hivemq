@@ -1,2 +1,2 @@
 # hivemq
-HiveMQ in Docker with messagelog
+HiveMQ in Docker with messagelog.
